@@ -17,7 +17,7 @@ using Jmw.EntityHelpers;
 
       catch (DbEntityValidationException ex)
       {
-         // the variable will containt a readable of the validation errors.
+         // the variable will contain a readable of the validation errors.
          string message = ex.LogMessage();
       }
 
