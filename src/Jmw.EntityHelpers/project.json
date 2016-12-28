@@ -1,0 +1,60 @@
+﻿{
+  "buildOptions": {
+    "xmlDoc": true,
+    "additionalArguments": [
+      "/ruleset:../../stylecop.ruleset",
+      "/additionalfile:../../stylecop.json"
+    ]
+  },
+  "dependencies": {
+    "EntityFramework": "6.1.3",
+    "StyleCop.Analyzers": {
+      "type": "build",
+      "version": "1.0.0"
+    }
+  },
+  "frameworks": {
+    "net40": {
+      "frameworkAssemblies": {
+        "System.Data": "4.0.0.0"
+      }
+    },
+    "net45": {
+      "frameworkAssemblies": {
+        "System.Data": "4.0.0.0"
+      }
+    },
+    "net451": {
+      "frameworkAssemblies": {
+        "System.Data": "4.0.0.0"
+      }
+    },
+    "net46": {
+      "frameworkAssemblies": {
+        "System.Data": "4.0.0.0"
+      }
+    },
+    "net461": {
+      "frameworkAssemblies": {
+        "System.Data": "4.0.0.0"
+      }
+    }
+  },
+  "title": "EntityHelpers",
+  "authors": [ "Jean-Marc Weeger" ],
+  "description": "Helper library for EntityFramework 6.1.3",
+  "packOptions": {
+    "iconUrl": "https://jmw-fr.github.io/VarChecker/images/entityhelpers.png",
+    "licenseUrl": "https://opensource.org/licenses/mit-license.php",
+    "owners": [ "Jean-Marc Weeger" ],
+    "projectUrl": "https://github.com/jmw-fr/EntityHelpers",
+    "releaseNotes": "",
+    "repository": {
+      "url": "https://github.com/jmw-fr/EntityHelpers",
+      "type": "git"
+    },
+    "requireLicenseAcceptance": false,
+    "summary": "Helper library for EntityFramework 6.1.3."
+  },
+  "version": "0.2.0-rc1"
+}

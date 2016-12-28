@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "debugType": "portable",
+    "xmlDoc": true,
+    "additionalArguments": [
+      "/ruleset:../../stylecop.ruleset",
+      "/additionalfile:../../stylecop.json"
+    ]
+  },
+  "dependencies": {
+    "System.Runtime.Serialization.Primitives": "4.1.1",
+    "xunit": "2.1.0",
+    "dotnet-test-xunit": "1.0.0-rc2-build10025",
+    "StyleCop.Analyzers": {
+      "type": "build",
+      "version": "1.0.0"
+    },
+    "Jmw.EntityHelpers": {
+      "target": "project"
+    }
+  },
+  "testRunner": "xunit",
+  "frameworks": {
+    "net461": {
+      "frameworkAssemblies": {
+        "System.Data": "4.0.0.0"
+      }
+    }
+  }
+}

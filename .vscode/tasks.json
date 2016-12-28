@@ -1,0 +1,29 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "0.1.0",
+    "command": "dotnet",
+    "isShellCommand": true,
+    "args": [],
+    "tasks": [
+        {
+            "taskName": "build",
+            "args": [
+                "./src/Jmw.EntityHelpers/project.json",
+                "./test/Jmw.EntityHelpers.test/project.json"
+            ],
+            "isBuildCommand": true,
+            "showOutput": "silent",
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "taskName": "pack",
+            "args": [
+                "--configuration",
+                "Release",
+                "./src/Jmw.EntityHelpers/project.json"
+            ],
+            "isBuildCommand": false
+        }
+    ]
+}
